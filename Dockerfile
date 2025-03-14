@@ -15,6 +15,3 @@ COPY . .
 
 # Expose the default Angular port
 EXPOSE 4200
-
-# Start the Angular application in development mode
-CMD ["ng", "serve", "--host", "0.0.0.0", "--poll", "2000"]
